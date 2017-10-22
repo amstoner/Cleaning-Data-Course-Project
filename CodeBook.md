@@ -25,10 +25,9 @@ VARIABLES:
 ----------
 
 subjectid
-
-Id number for the individual (range: 1-3)
-format: integer
-unit: none
+\nId number for the individual (range: 1-3)
+\nformat: integer
+\nunit: none
 
 activity
 	Activity performed (values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
