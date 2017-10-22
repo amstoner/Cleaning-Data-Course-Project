@@ -39,4 +39,4 @@ result <- data.frame(cbind(id_activity,means))
 rownames(result) <- NULL
 
 ## Write the data frame to a file
-write.csv(result,"smartphone_activity_means_and_std_averages.csv",row.names=F)
+write.table(result,"smartphone_activity_means_and_std_averages.txt",row.names=F)
