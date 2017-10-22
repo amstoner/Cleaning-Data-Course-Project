@@ -29,5 +29,5 @@ activity.
 
 ### Write output file:
 
-The result is written to a csv file
-"smartphone_activity_means_and_std_averages.csv"
+The result is written to a text file
+"smartphone_activity_means_and_std_averages.txt"
