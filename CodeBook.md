@@ -7,8 +7,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
 
 
-CLEANING AND MERGING THE DATA AND INFORMATION:
-----------------------------------------------
+### CLEANING AND MERGING THE DATA AND INFORMATION:
 
 The labels, IDs, and activities are cleaned up a bit and combined with the data table
 to facilitate readability.
@@ -21,38 +20,37 @@ individual and one activity. Each variable in each group is averaged and the res
 table that lists the variables in the columns and subject ID and activity in the rows.
 
 
-VARIABLES:
-----------
+### VARIABLES:
 
-##### subjectid  
+subjectid  
 &nbsp;&nbsp;&nbsp;&nbsp;Id number for the individual (range: 1-3)  
 &nbsp;&nbsp;&nbsp;&nbsp;format: integer  
 &nbsp;&nbsp;&nbsp;&nbsp;unit: none  
 
-##### activity
+activity  
 &nbsp;&nbsp;&nbsp;&nbsp;Activity performed (values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)  
 &nbsp;&nbsp;&nbsp;&nbsp;format: factor  
 &nbsp;&nbsp;&nbsp;&nbsp;unit: N/A  
 
-##### tbodyacc.mean.x  
-##### tbodyacc.mean.y  
-##### tbodyacc.mean.z  
+tbodyacc.mean.x  
+tbodyacc.mean.y  
+tbodyacc.mean.z  
 &nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration in X, Y, and Z directions  
 &nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
 &nbsp;&nbsp;&nbsp;&nbsp;unit: g  
 &nbsp;&nbsp;&nbsp;&nbsp;domain: time  
 
-##### tbodyacc.std.x  
-##### tbodyacc.std.y  
-##### tbodyacc.std.z  
+tbodyacc.std.x  
+tbodyacc.std.y  
+tbodyacc.std.z  
 &nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of body acceleration in X, Y, and Z directions  
 &nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
 &nbsp;&nbsp;&nbsp;&nbsp;unit: g  
 &nbsp;&nbsp;&nbsp;&nbsp;domain: time  
 
-##### tgravityacc.mean.x
-##### tgravityacc.mean.y
-##### tgravityacc.mean.z
+tgravityacc.mean.x  
+tgravityacc.mean.y  
+tgravityacc.mean.z  
 &nbsp;&nbsp;&nbsp;&nbsp;Mean gravity acceleration in X, Y, and Z directions  
 &nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
 &nbsp;&nbsp;&nbsp;&nbsp;unit: g  
