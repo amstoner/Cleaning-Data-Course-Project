@@ -24,10 +24,10 @@ table that lists the variables in the columns and subject ID and activity in the
 VARIABLES:
 ----------
 
-subjectid
-\nId number for the individual (range: 1-3)
-\nformat: integer
-\nunit: none
+subjectid\s\s
+    Id number for the individual (range: 1-3)\s\s
+    format: integer\s\s
+    unit: none\s\s
 
 activity
 	Activity performed (values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
