@@ -23,280 +23,322 @@ table that lists the variables in the columns and subject ID and activity in the
 ### VARIABLES:
 
 subjectid  
-&nbsp;&nbsp;&nbsp;&nbsp;Id number for the individual (range: 1-3)  
-&nbsp;&nbsp;&nbsp;&nbsp;format: integer  
-&nbsp;&nbsp;&nbsp;&nbsp;unit: none  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Id number for the individual (range: 1-3)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: integer  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: none  
 
 activity  
-&nbsp;&nbsp;&nbsp;&nbsp;Activity performed (values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)  
-&nbsp;&nbsp;&nbsp;&nbsp;format: factor  
-&nbsp;&nbsp;&nbsp;&nbsp;unit: N/A  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Activity performed (values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: factor  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: N/A  
 
 tbodyacc.mean.x  
 tbodyacc.mean.y  
 tbodyacc.mean.z  
-&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration in X, Y, and Z directions  
-&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
-&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
-&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
 
 tbodyacc.std.x  
 tbodyacc.std.y  
 tbodyacc.std.z  
-&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of body acceleration in X, Y, and Z directions  
-&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
-&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
-&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of body acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
 
 tgravityacc.mean.x  
 tgravityacc.mean.y  
 tgravityacc.mean.z  
-&nbsp;&nbsp;&nbsp;&nbsp;Mean gravity acceleration in X, Y, and Z directions  
-&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
-&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
-&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean gravity acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
 
-tgravityacc.std.x
-tgravityacc.std.y
-tgravityacc.std.z
-        Standard deviation of gravity acceleration in X, Y, and Z directions
-        format: numeric
-        unit: g
-        domain: time
-tbodyaccjerk.mean.x
-tbodyaccjerk.mean.y
-tbodyaccjerk.mean.z
-        Mean quick motion acceleration in X, Y, and Z directions
-        format: numeric
-        unit: g
-        domain: time
-tbodyaccjerk.std.x
-tbodyaccjerk.std.y
-tbodyaccjerk.std.z
-        Standard deviation of quick motion acceleration in X, Y, and Z directions
-        format: numeric
-        unit: g
-        domain: time
-tbodygyro.mean.x
-tbodygyro.mean.y
-tbodygyro.mean.z
-        Mean angular velocity in X, Y, and Z directions
-        format: numeric
-        unit: radians/second
-        domain: time
-tbodygyro.std.x
-tbodygyro.std.y
-tbodygyro.std.z
-        Standard deviation of angular velocity in X, Y, and Z directions
-        format: numeric
-        unit: radians/second
-        domain: time
-tbodygyrojerk.mean.x
-tbodygyrojerk.mean.y
-tbodygyrojerk.mean.z
-        Mean quick-motion angular velocity in X, Y, and Z directions
-        format: numeric
-        unit: radians/second
-        domain: time
-tbodygyrojerk.std.x
-tbodygyrojerk.std.y
-tbodygyrojerk.std.z
-        Standard deviation of quick-motion angular velocity in X, Y, and Z directions
-        format: numeric
-        unit: radians/second
-        domain: time
-tbodyaccmag.mean
-	Mean total body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: time
-tbodyaccmag.std
-        Standard deviation of total body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: time
-tgravityaccmag.mean
-        Mean total gravity acceleration magnitude
-        format: numeric
-        unit: g
-        domain: time
-tgravityaccmag.std
-        Standard deviation of total gravity acceleration magnitude
-        format: numeric
-        unit: g
-        domain: time
-tbodyaccjerkmag.mean
-        Mean total quick-motion body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: time
-tbodyaccjerkmag.std
-        Standard deviation of total quick-motion body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: time
-tbodygyromag.mean
-        Mean total angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: time
-tbodygyromag.std
-        Standard deviation of total angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: time
-tbodygyrojerkmag.mean
-        Mean total quick-motion angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: time
-tbodygyrojerkmag.std
-        Standard deviation of total quick-motion angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: time
-fbodyacc.mean.x
-fbodyacc.mean.y
-fbodyacc.mean.z
-        Mean body acceleration in X, Y, and Z directions
-        format: numeric
-        unit: g
-        domain: frequency
-fbodyacc.std.x
-fbodyacc.std.y
-fbodyacc.std.z
-        Standard deviation of body acceleration in X, Y, and Z directions
-        format: numeric
-        unit: g
-        domain: frequency
-fbodyacc.meanfreq.x
-fbodyacc.meanfreq.y
-fbodyacc.meanfreq.z
-        Mean frequency of body acceleration in X, Y, and Z directions
-        format: numeric
-        unit: g
-        domain: frequency
-fbodyaccjerk.mean.x
-fbodyaccjerk.mean.y
-fbodyaccjerk.mean.z
-        Mean quick-motion body acceleration in X, Y, and Z directions
-        format: numeric
-        unit: g
-        domain: frequency
-fbodyaccjerk.std.x
-fbodyaccjerk.std.y
-fbodyaccjerk.std.z
-        Standard deviation of quick-motion body acceleration in X, Y, and Z directions
-        format: numeric
-        unit: g
-        domain: frequency
-fbodyaccjerk.meanfreq.x
-fbodyaccjerk.meanfreq.y
-fbodyaccjerk.meanfreq.z
-        Mean frequency of quick-motion body acceleration in X, Y, and Z directions
-        format: numeric
-        unit: g
-        domain: frequency
-fbodygyro.mean.x
-fbodygyro.mean.y
-fbodygyro.mean.z
-        Mean angular velocity in X, Y, and Z directions
-        format: numeric
-        unit: radians/second
-        domain: frequency
-fbodygyro.std.x
-fbodygyro.std.y
-fbodygyro.std.z
-        Standard deviation of angular velocity in X, Y, and Z directions
-        format: numeric
-        unit: radians/second
-        domain: frequency
-fbodygyro.meanfreq.x
-fbodygyro.meanfreq.y
-fbodygyro.meanfreq.z
-        Mean frequency of body acceleration in X, Y, and Z directions
-        format: numeric
-        unit: radians/second
-        domain: frequency
-fbodyaccmag.mean
-        Mean total body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: frequency
-fbodyaccmag.std
-        Standard deviation of total body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: frequency
-fbodyaccmag.meanfreq
-        Mean frequency of total body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: frequency
-fbodybodyaccjerkmag.mean
-        Mean total quick-motion body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: frequency
-fbodybodyaccjerkmag.std
-        Standard deviation of total quick-motion body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: frequency
-fbodybodyaccjerkmag.meanfreq
-        Mean frequency of total quick-motion body acceleration magnitude
-        format: numeric
-        unit: g
-        domain: frequency
-fbodybodygyromag.mean
-        Mean total angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: frequency
-fbodybodygyromag.std
-        Standard deviation of total angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: frequency
-fbodybodygyromag.meanfreq
-        Mean frequency of total angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: frequency
-fbodybodygyrojerkmag.mean
-        Mean total quick-motion angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: frequency
-fbodybodygyrojerkmag.std
-        Standard deviation of total quick-motion angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: frequency
-fbodybodygyrojerkmag.meanfreq
-        Mean frequency of total quick-motion angular velocity magnitude
-        format: numeric
-        unit: radians/second
-        domain: frequency
-angletbodyaccmean.gravity
-	Mean angle of body acceleration
-        format: numeric
-      	unit: radians
-angletbodyaccjerkmean.gravitymean
-        Mean angle of quick-motion body acceleration
-	format: numeric
-	unit: radians
-angletbodygyromean.gravitymean
-	Mean angle of angular velocity
-	format: numeric
-	unit: radians
-angletbodygyrojerkmean.gravitymean
-	Mean angle of quick-motion angular velocity
-	format: numeric
-	unit: radians
-anglex.gravitymean
-angley.gravitymean
-anglez.gravitymean
-	Mean angle of gravity in X, Y, and Z directions
-	format: numeric
-	unit: radians
+tgravityacc.std.x  
+tgravityacc.std.y  
+tgravityacc.std.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of gravity acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodyaccjerk.mean.x  
+tbodyaccjerk.mean.y  
+tbodyaccjerk.mean.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean quick motion acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodyaccjerk.std.x  
+tbodyaccjerk.std.y  
+tbodyaccjerk.std.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of quick motion acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodygyro.mean.x  
+tbodygyro.mean.y  
+tbodygyro.mean.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean angular velocity in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodygyro.std.x  
+tbodygyro.std.y  
+tbodygyro.std.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of angular velocity in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodygyrojerk.mean.x  
+tbodygyrojerk.mean.y  
+tbodygyrojerk.mean.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean quick-motion angular velocity in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodygyrojerk.std.x  
+tbodygyrojerk.std.y  
+tbodygyrojerk.std.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of quick-motion angular velocity in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodyaccmag.mean  
+	Mean total body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodyaccmag.std  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of total body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tgravityaccmag.mean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean total gravity acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tgravityaccmag.std  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of total gravity acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodyaccjerkmag.mean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean total quick-motion body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodyaccjerkmag.std  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of total quick-motion body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodygyromag.mean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean total angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodygyromag.std  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of total angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodygyrojerkmag.mean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean total quick-motion angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+tbodygyrojerkmag.std  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of total quick-motion angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: time  
+
+fbodyacc.mean.x  
+fbodyacc.mean.y  
+fbodyacc.mean.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodyacc.std.x  
+fbodyacc.std.y  
+fbodyacc.std.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of body acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodyacc.meanfreq.x  
+fbodyacc.meanfreq.y  
+fbodyacc.meanfreq.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean frequency of body acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodyaccjerk.mean.x  
+fbodyaccjerk.mean.y  
+fbodyaccjerk.mean.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean quick-motion body acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodyaccjerk.std.x  
+fbodyaccjerk.std.y  
+fbodyaccjerk.std.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of quick-motion body acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodyaccjerk.meanfreq.x  
+fbodyaccjerk.meanfreq.y  
+fbodyaccjerk.meanfreq.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean frequency of quick-motion body acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodygyro.mean.x  
+fbodygyro.mean.y  
+fbodygyro.mean.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean angular velocity in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodygyro.std.x  
+fbodygyro.std.y  
+fbodygyro.std.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of angular velocity in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodygyro.meanfreq.x  
+fbodygyro.meanfreq.y  
+fbodygyro.meanfreq.z  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean frequency of body acceleration in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodyaccmag.mean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean total body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodyaccmag.std  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of total body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodyaccmag.meanfreq  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean frequency of total body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodybodyaccjerkmag.mean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean total quick-motion body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodybodyaccjerkmag.std  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of total quick-motion body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodybodyaccjerkmag.meanfreq  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean frequency of total quick-motion body acceleration magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: g  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodybodygyromag.mean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean total angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodybodygyromag.std  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of total angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodybodygyromag.meanfreq  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean frequency of total angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodybodygyrojerkmag.mean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean total quick-motion angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodybodygyrojerkmag.std  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of total quick-motion angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+fbodybodygyrojerkmag.meanfreq  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean frequency of total quick-motion angular velocity magnitude  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians/second  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;domain: frequency  
+
+angletbodyaccmean.gravity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean angle of body acceleration  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians  
+
+angletbodyaccjerkmean.gravitymean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean angle of quick-motion body acceleration  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians  
+
+angletbodygyromean.gravitymean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean angle of angular velocity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians  
+
+angletbodygyrojerkmean.gravitymean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean angle of quick-motion angular velocity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians  
+
+anglex.gravitymean  
+angley.gravitymean  
+anglez.gravitymean  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean angle of gravity in X, Y, and Z directions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: numeric  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit: radians  
